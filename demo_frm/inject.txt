@@ -1,0 +1,5 @@
+<script>alert('toto&Co');</script>
+<script> window.location.replace("http://www.w3schools.com");</script>
+
+
+https://kode.ch/tests/injections.php?s=1

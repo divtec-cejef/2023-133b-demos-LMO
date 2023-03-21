@@ -1,0 +1,1 @@
+Sur la plupart des serveurs UNIX, un fichier est considéré comme modifié si les données de son inode sont modifiées. C'est-à-dire lorsque les permissions (utilisateur, groupe ou autre) ont été modifiées. Voyez aussi filemtime() (que vous pourrez utiliser lorsque vous créerez des indications telles que "Dernière modification : " sur les pages web) et fileatime().

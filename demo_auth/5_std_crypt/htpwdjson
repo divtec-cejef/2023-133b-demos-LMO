@@ -1,0 +1,10 @@
+[
+  {"name":"mario",
+   "mdp":"$2y$10$npXw40DtBHhc21gfGhyOSOCljwaWKYFGkTsQWXK3H3NzjESdxADX.",
+   "cmt":"qwertz",
+   "niveau": 1},
+   {"name":"pac",
+   "mdp":"$2y$10$OVZPcZ6A5UGvAf89fntPUO027X9hzvigOw6sy82V89scbjjW5fnJa",
+   "cmt":"pass",
+   "niveau":2}
+]

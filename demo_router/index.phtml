@@ -1,0 +1,79 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: lmo
+ * Date: 20.11.17
+ * Time: 16:46
+ * https://phbonnement.wordpress.com/2011/11/01/routage-durl-en-php-comment-faire/
+ */
+
+
+/* Constants */
+define ('DEFAULT_MODULE', 'acceuil');
+define ('DEFAULT_FUNCTION', 'index');
+
+define ('DIR_CLASS', __DIR__.'/controller/');
+define ('DIR_MODEL', __DIR__.'/lib/');
+define ('DIR_VIEW',  __DIR__.'/view/');
+
+/* First we need to get the URI */
+$appel_url = $_SERVER['REQUEST_URI'];
+
+/* Test if URI == null
+*  If null, display default module
+*/
+
+/* Get the list of arguments
+*
+*   The URI must be like this : controller/function/arg1/arg2/arg3
+*
+ */
+$arguments = explode('/', $appel_url);
+
+/*
+* Three part structure to determine which class & function to load. Nothing crazy
+*/
+$class_to_load = $arguments[1] == '' ? DEFAULT_MODULE : $arguments[1];
+
+$function_to_exec = $arguments[2] == '' ? DEFAULT_FUNCTION : $arguments[2];
+
+$file_to_call = DIR_CLASS.'/'.$class_to_load.'.php';
+
+try {
+
+    /* Rien de spécial ici, verif de routine */
+    if (!file_exists($file_to_call) )
+    {
+        throw new Exception('Erreur : La classe '.$class_to_load.' n\'existe pas. ');
+    }
+    require_once(DIR_CLASS.'/'.$class_to_load.'.php');
+
+    if (!class_exists($class_to_load) )
+    {
+        throw new Exception('Erreur : La classe '.$class_to_load.' \' n\'est pas définie.' );
+    }
+
+    /* Appel de notre controller */
+    $object_call = new $class_to_load();
+
+    if (!method_exists($object_call, $function_to_exec) )
+    {
+        throw new Exception('Erreur: La fonction '.$function_to_exec.' n\'est pas d&eacute;finie. ');
+    }
+    if (!is_callable(array($object_call, $function_to_exec) )  )
+    {
+        throw new Exception('Erreur: La methode '.$function_to_exec.' doit &ecirc;tre définie comme public. ');
+    }
+
+    $object_call->$function_to_exec();
+
+    /*
+    * And We Are Done !
+    */
+
+}catch(Exception $e)
+{
+    exit($e->getMessage() );
+}
+
+?>

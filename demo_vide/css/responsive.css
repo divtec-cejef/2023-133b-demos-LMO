@@ -1,0 +1,18 @@
+/*
+Pour les écrans moyens
+ - plus grand ou égal à 480px;
+*/
+@media screen and (min-width: 480px){
+
+
+
+}
+
+/*
+Pour les grand écrans
+ - plus grand ou égal à 660px;
+*/
+@media screen and (min-width: 660px){
+
+
+}

@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #222530;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #4F5B93;
+}
+
+a {
+    text-decoration: none;
+    color: #8892BF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    max-width: 900px;
+    line-height: 1.7;;
+}
+
+.bouton {
+    color: #EBECF1;
+    padding: .75em;
+    background-color: #525874;
+    border-color: #525874;
+    border-style: solid;
+}
+
+.bouton:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+pre {
+    background-color: #222530;
+    color: #0BF56A;
+    padding: 1em;
+}
+
+.pv1 {
+    padding-top : 1em;
+    padding-bottom : 1em;
+}
+
+.ph1 {
+    padding-left : 1em;
+    padding-right : 1em;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.mv1 {
+    margin-top : 1em;
+    margin-bottom : 1em;
+}
+
+.mh1 {
+    margin-left : 1em;
+    margin-right : 1em;
+}
+
+.error-box,
+.confirm-box,
+.section-box {
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.section-box {
+    background-color: #EBECF1;
+}
+
+.error-box {
+    color: #4C2518;
+    background-color: #E38A80;
+}
+
+.confirm-box {
+    color: #587F35;
+    background-color: #D9FFB7;
+}
+
+/******************
+ FORMULAIRES
+******************/
+form.inline  {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+form.inline :first-child {
+    flex: 2;
+    margin-right: .5em;
+}
+
+form.inline :first-child + input {
+    flex: 1;
+}
+
+
+input,
+textarea {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 2px solid #525874;
+    padding: 1em;
+}
+
+textarea {
+    min-height: 10em;
+}
+
+/******************
+ TABLEAUX
+******************/
+table {
+    /*font-size: .75rem;*/
+    border-collapse: collapse;
+    border: 2px solid #525874;
+}
+
+table td,
+table th {
+    padding: .5em .75em;
+    border-right: 2px solid #525874;
+}
+
+table thead tr th {
+    text-align: left;
+    border-bottom: 2px solid #525874;
+}
+
+table thead th {
+    text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #EBECF1;
+}
+
+table tr td:first-child {
+    white-space: nowrap;
+}
+
+footer {
+    text-align: center;
+    color: #EBECF1;
+    border-top: 1px solid #EBECF1;
+    margin-top: 4em;
+    padding: 1em 0;
+    font-size: .75rem;
+}

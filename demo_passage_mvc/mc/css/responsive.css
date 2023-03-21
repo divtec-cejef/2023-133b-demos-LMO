@@ -1,0 +1,104 @@
+/*
+Pour les écrans moyens
+ - plus grand ou égal à 480px;
+*/
+@media screen and (min-width: 480px){
+
+	/**********************************
+	Affichage sur 2 colonnes
+	***********************************/
+
+	#col1{
+		width:50%;
+		margin-right: 10%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#col2{
+		width:40%;
+		display: inline-block;
+
+	}
+
+	/**********************************
+    PAGE: PORTFOLIO
+    ***********************************/
+
+	/*
+	Chaque élément à 2 marges de 2.5%
+	2 x 2.5% = 5%
+
+	Pour trois éléments par ligne :
+	3 x 5% = 15%
+
+	On doit donc soustraire ces 15% à la largeur totale disponible (100%)
+	100% - 15% = 85%
+
+	Reste à partager ces 85% en 3 colonnes
+	85% / 3 = 28.333
+
+	Chaque élément fera donc 28.3333% de large
+	*/
+
+	#gallerie li {
+		width: 28.3333%;
+	}
+
+	/**********************************
+  	PAGE: ABOUT
+  	***********************************/
+	#about {
+		overflow: auto;
+	}
+
+	img.profile-photo {
+		float: left;
+		margin: 0 5% 90px 0;
+	}
+
+}
+
+/*
+Pour les grand écrans
+ - plus grand ou égal à 660px;
+*/
+@media screen and (min-width: 660px){
+
+	/**********************************
+    HEADER
+    ***********************************/
+
+	header{
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+
+	#logo{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+
+	h2{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+
+	nav{
+		background: none;
+		display: inline-block;
+
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+}
