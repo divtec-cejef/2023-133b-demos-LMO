@@ -6,9 +6,12 @@
  * Time: 14:34
  */
 
+var_dump($_GET);
+
 $error = '';
 $num = filter_input(INPUT_GET, 'num', FILTER_VALIDATE_INT);
 
+var_dump($num);
 // Traite la réponse du filtre. Vérifie que ce soit un nombre ou du moins que la vriable n'est pas vide.
 if (($num === false) || ($num === null)) {
     $error = 'pas de paramètre valide';

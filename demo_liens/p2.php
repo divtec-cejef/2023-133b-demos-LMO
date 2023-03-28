@@ -6,6 +6,8 @@
  * Time: 14:34
  */
 
+var_dump($_GET);
+
 ?>
 <!doctype html>
 <html lang="fr">

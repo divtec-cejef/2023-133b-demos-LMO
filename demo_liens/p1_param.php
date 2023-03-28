@@ -20,7 +20,7 @@ $num=120;
 
 <ul>
     <li><a href="p2.php?id=123">Lien paramétré vers page 2</a></li>
-    <li><a href="p2.php?num=<?php echo $num; ?>">Lien paramétrée dyn. vers page 2</a></li>
+   <li><a href="p2.php?num=<?php echo $num;?>">Lien paramétrée dyn. vers page 2</a></li>
     <li><a href="p2_param.php?num=<?php echo $num; ?>">Lien avec ctrl vers page 2</a></li>
 
 </ul>
