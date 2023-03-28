@@ -27,9 +27,9 @@
 
     // Création d'un tableau.
      $peintres = [
-                  'Picasso',
-                 'Van Gogh',
-                 'Rothko',
+         'Picasso',
+         'Van Gogh',
+         'Rothko',
      ];
 
      // Affichage du contenu.
@@ -52,38 +52,52 @@
 
     echo '<hr>';
 
-    // Foreach sur tableau assoc.
-    $garage = [
-               'JU2296' => [
-                            'Volvo',
-                            22,
-                            18,
-                           ],
-               'NE6789' => [
-                            'BMW',
-                            15,
-                            13,
-                           ],
-               'GR4379' => [
-                            'Saab',
-                            5,
-                            2,
-                           ],
-               'VS9666' => [
-                            'Land Rover',
-                            17,
-                            18,
-                           ],
-    ];
-    var_dump($garage);
+     $tab2 = [
+         'id'          => 1001,
+         'nom'         => 'Jura',
+         'abreviation' => 'JU',
+         'Delémont'
+     ];
 
-    foreach ($garage as $imatriculation => $voiture) {
-            echo '<h4>',$imatriculation, ':','</h4>';
-        foreach ($voiture as $carctersitique => $valeur) {
-            echo '<p>',$carctersitique, ': ',$valeur, '</p>';
-        }
-    }
+     $tab2[10]=2800;
 
+     foreach ($tab2 as $indice => $valeur) {
+         echo $indice, ' - ', $valeur,'<br/>';
+     }
+
+ /*
+     // Foreach sur tableau assoc.
+     $garage = [
+                'JU2296' => [
+                             'Volvo',
+                             22,
+                             18,
+                            ],
+                'NE6789' => [
+                             'BMW',
+                             15,
+                             13,
+                            ],
+                'GR4379' => [
+                             'Saab',
+                             5,
+                             2,
+                            ],
+                'VS9666' => [
+                             'Land Rover',
+                             17,
+                             18,
+                            ],
+     ];
+     var_dump($garage);
+
+     foreach ($garage as $imatriculation => $voiture) {
+             echo '<h4>',$imatriculation, ':','</h4>';
+         foreach ($voiture as $carctersitique => $valeur) {
+             echo '<p>',$carctersitique, ': ',$valeur, '</p>';
+         }
+     }
+ */
 ?>
  </body>
  </html>
