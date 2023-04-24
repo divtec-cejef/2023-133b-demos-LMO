@@ -6,7 +6,7 @@
  * Time: 10:15
  */
 ?>
-<?php include VIEW_PART_DIR . 'header.view.php'; ?>
+<?php include './view/part/header.view.php'; ?>
 <main>
     <ul>
         <?php foreach ($datas as $key => $pers): ?>
@@ -14,4 +14,4 @@
         <?php endforeach; ?>
     </ul>
 </main>
-<?php include VIEW_PART_DIR . 'footer.view.php'; ?>
+<?php include './view/part/footer.view.php'; ?>

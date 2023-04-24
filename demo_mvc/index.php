@@ -11,11 +11,11 @@
 require_once 'inc/config.php';
 
 // accès au modèle
-require_once MODEL_DIR . 'gens.model.php';
+require_once './model/gens.model.php';
 
 $datas = getAll();
 
 
 // appel de la vue corresppondante
-include VIEW_DIR . 'accueil.view.php';
+include './view/accueil.view.php';
 
