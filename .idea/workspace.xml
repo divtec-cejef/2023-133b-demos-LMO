@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="100fc409-6825-4836-a83e-806bb21aca40" name="Changes" comment="maj demo mvc">
+      <change beforePath="$PROJECT_DIR$/demo_mvc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_mvc/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/view/part/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_mvc/view/part/footer.view.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="55c021d5-d9ef-4346-92e4-d30b12963b57" name="localhost" port="443" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\xampp\htdocs" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2NK8Sgz4PYtfLFpAgdjvByQsImq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Constants": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/lmo/w3ict133b/2023-133b-demos-LMO",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lmo\w3ict133b\2023-133b-demos-LMO" />
+      <recent name="C:\xampp\htdocs\lmo\w3ict133b\exercices\2021-2022\2023-133b-demos-LMO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="28_3_inf2b_tab_1d_assoc.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/demo_tableau/28_3_inf2b_tab_1d_assoc.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_fonction.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/demo_fonction/demo_fonction.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_require_1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/demo_inclusion/demo_require_1.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/demo_mvc/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="test-debug.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test-debug.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.test-debug.php" />
+        <item itemvalue="PHP Script.demo_require_1.php" />
+        <item itemvalue="PHP Script.demo_fonction.php" />
+        <item itemvalue="PHP Script.28_3_inf2b_tab_1d_assoc.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="100fc409-6825-4836-a83e-806bb21aca40" name="Changes" comment="" />
+      <created>1679401414237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679401414237</updated>
+      <workItem from="1679401416167" duration="3140000" />
+      <workItem from="1679405316475" duration="695000" />
+      <workItem from="1679984022373" duration="231000" />
+      <workItem from="1679984365096" duration="10831000" />
+      <workItem from="1680002852425" duration="85000" />
+      <workItem from="1680002947331" duration="2083000" />
+      <workItem from="1680587548060" duration="114000" />
+      <workItem from="1680587682229" duration="7616000" />
+      <workItem from="1682400365791" duration="2255000" />
+    </task>
+    <task id="LOCAL-00001" summary="demo tad 1d indicé">
+      <created>1679404096097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679404096097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ajout test du debug">
+      <created>1679404380802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679404380802</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ajout exemples tab assoc">
+      <created>1679987237311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679987237311</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ajout exemples tab 2d">
+      <created>1679989307199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679989307199</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ajout exemples tab 2d">
+      <created>1679994087449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679994087449</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ajout exemples tab assoc">
+      <created>1679996113699</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679996113699</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ajout exemples tab 2d et parcours">
+      <created>1679998874034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679998874034</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ajout exemples tab 2d et parcours">
+      <created>1680002618011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680002618011</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ajout exemples tab 2d et parcours">
+      <created>1680002670114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680002670114</updated>
+    </task>
+    <task id="LOCAL-00010" summary="demo liens">
+      <created>1680005294964</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680005294964</updated>
+    </task>
+    <task id="LOCAL-00011" summary="maj demo mvc">
+      <created>1682406714271</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682406714271</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="demo tad 1d indicé" />
+    <MESSAGE value="ajout test du debug" />
+    <MESSAGE value="ajout exemples tab 2d" />
+    <MESSAGE value="ajout exemples tab assoc" />
+    <MESSAGE value="ajout exemples tab 2d et parcours" />
+    <MESSAGE value="demo liens" />
+    <MESSAGE value="maj demo mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj demo mvc" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/demo_tableau/2_tab_assoc.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/demo_tableau/3_tab_parcours.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/demo_inclusion/demo_require_1.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/demo_inclusion/demo_include.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/demo_inclusion/demo_require_1.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/demo_fonction/demo_fonction.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/demo_liens/redir1.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
