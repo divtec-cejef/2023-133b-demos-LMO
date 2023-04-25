@@ -8,7 +8,7 @@
 ?>
 
 <footer>
-    CEJEF
+    <?php echo USER_NAME ?>
 </footer>
 </body>
 </html>
