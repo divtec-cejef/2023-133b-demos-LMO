@@ -8,4 +8,4 @@
 
 
 define('USER_NAME', 'BdD');
-const SLOGAN = 'Tout est bon dans le cochon!';
+const SLOGAN = 'salut odin!';

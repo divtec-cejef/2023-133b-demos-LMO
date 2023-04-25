@@ -7,10 +7,10 @@ function affiche() {
 
 function testVarGlobale(){
     global $gVar;
-    $var = 17;
+    $gVar = 17;
 
     // Syntaxe altenative. Remplace les 2 ligne ci-dessus.
-    $GLOBALS['gVar'] = 20;
+    //$GLOBALS['gVar'] = 20;
 }
 
 // Initialisation de la variable globale.

@@ -6,7 +6,7 @@
  * Time: 08:23
  */
 
-require_once('./config.php');
+require('./config.php');
 
 $pageTitle = 'accueil'
 ?>
