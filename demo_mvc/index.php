@@ -13,9 +13,10 @@ require 'inc/config.php';
 // accès au modèle
 require './model/gens.model.php';
 
+//utilise les données du modèle
 $datas = getAll();
 
 
-// appel de la vue corresppondante
+// présent les données la vue corresppondante
 include './view/accueil.view.php';
 
