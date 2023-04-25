@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="100fc409-6825-4836-a83e-806bb21aca40" name="Changes" comment="maj demo mvc">
-      <change beforePath="$PROJECT_DIR$/demo_mvc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_mvc/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_mvc/view/part/footer.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo_mvc/view/part/footer.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/ref.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/ref.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/tests/example.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/tests/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/tests/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/inc/vendors/php-ref-master/tests/today" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/model/gens.model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/view/accueil.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/view/part/footer.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_mvc/view/part/header.view.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +57,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Constants": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/lmo/w3ict133b/2023-133b-demos-LMO",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Constants&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/lmo/w3ict133b/2023-133b-demos-LMO&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\lmo\w3ict133b\2023-133b-demos-LMO" />
