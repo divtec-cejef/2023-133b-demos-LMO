@@ -14,8 +14,6 @@ require 'inc/config.php';
 require './model/gens.model.php';
 
 $datas = getAll();
+var_dump(getAll());
 
-
-// appel de la vue corresppondante
-include './view/accueil.view.php';
 
