@@ -27,6 +27,8 @@ if(isset($_GET['btnEnvoi'])){
 // appel de la vue correspondante
 include 'view/formulaire.view.php';
 
+//include 'view/formulaire_remanant.view.php';
+
 
 
 
