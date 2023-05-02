@@ -28,7 +28,7 @@ if(isset($_GET['btnEnvoi'])){
 <!--l'action est sur la même page-->
 <form action="" method="get">
     <p>
-        <label for="tbx1">saisir un text</label>
+        <label for="tbx1">saisir un nombre</label>
         <input type="text" name="tbx1"  id="tbx1">
     </p>
     <p>

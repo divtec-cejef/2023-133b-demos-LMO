@@ -9,13 +9,14 @@
 </head>
 <body>
 
-<form action="011-traitement-frm.php" method="get">
+<form action="011-traitement-frm.php" method="post">
     <p>
         <label for="tbx1">saisir un text</label>
         <input type="text" name="tbx1"  id="tbx1">
     </p>
     <p>
         <button type="submit" id="btn" name="btnEnvoi" value="btnEnvoi">Envoyer</button>
+
     </p>
 
 </form>

@@ -14,7 +14,7 @@ if(isset($_GET['btnEnvoi'])){
     $text = $_GET['tbx1'];
 
     //avec la protection
-    //$text=filter_input(INPUT_GET, 'tbx1', FILTER_SANITIZE_SPECIAL_CHARS);
+    $text=filter_input(INPUT_GET, 'tbx1', FILTER_SANITIZE_SPECIAL_CHARS);
 
 }
 ?>
