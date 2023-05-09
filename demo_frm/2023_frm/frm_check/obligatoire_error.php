@@ -6,8 +6,6 @@ $errors=[];
 
 // traitement du formulaire si'il est envoyé
 if(filter_input(INPUT_POST,'btnEnvoi') !== null){
-
-
     //champ obligatoire
     $val1 = filter_input(INPUT_POST, 'tbx1', FILTER_SANITIZE_SPECIAL_CHARS);
     if(empty($val1)){
@@ -17,12 +15,8 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
     } else{
         var_dump($val1);
     }
-
-
 }
 ?>
-
-
 <!--formulaire html-->
 <!doctype html>
 <html lang="FR">
@@ -36,14 +30,14 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
 <body>
 
 <!--affichage de la liste des erreurs-->
-<div>
-    <ul>
-        <!--parcours le tableau des erreuret les affiches-->
-        <?php foreach ($errors as $error): ?>
-            <li><?php  echo $error?></li>
-        <?php endforeach; ?>
-    </ul>
-</div>
+
+<ul>
+    <!--parcours le tableau des erreuret les affiches-->
+    <?php foreach ($errors as $error): ?>
+        <li><?php  echo $error?></li>
+    <?php endforeach; ?>
+</ul>
+
 
 <!--l'action est sur la même page-->
 <form action="" method="post">
