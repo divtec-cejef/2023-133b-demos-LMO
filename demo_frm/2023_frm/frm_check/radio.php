@@ -6,8 +6,6 @@
 if(filter_input(INPUT_POST,'btnEnvoi') !== null){
 
 
-
-
     //champ radio
     $val3 = filter_input(INPUT_POST, 'radio1', FILTER_SANITIZE_SPECIAL_CHARS);
     if(is_null($val3)){
@@ -45,7 +43,10 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
     </p>
 
    <!--autre groupe radio-->
-
+    <p>
+        oui <input type="radio" name="radio2" value="valRadio1_oui">
+        non <input type="radio" name="radio2" value="valRadio1_non">
+    </p>
 
 
     <p>

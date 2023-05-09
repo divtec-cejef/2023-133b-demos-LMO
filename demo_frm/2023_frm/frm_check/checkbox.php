@@ -6,7 +6,7 @@
 if(filter_input(INPUT_POST,'btnEnvoi') !== null){
 
 
-
+    var_dump($_POST);
     //champ case à cocher
     $val4 = filter_input(INPUT_POST, 'chk1');
     var_dump($val4);

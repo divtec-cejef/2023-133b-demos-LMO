@@ -1,6 +1,8 @@
 <?php
 // traitement
 
+// variable de gaestion des erreurs
+$errors=[];
 
 // traitement du formulaire si'il est envoyé
 if(filter_input(INPUT_POST,'btnEnvoi') !== null){
@@ -10,6 +12,8 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
     $val1 = filter_input(INPUT_POST, 'tbx1', FILTER_SANITIZE_SPECIAL_CHARS);
     if(empty($val1)){
         var_dump('erreur: champ obligatoire');
+        // ajoute une ligne au tableaux des erreurs
+        $errors[]='champ obligatoire';
     } else{
         var_dump($val1);
     }
@@ -30,6 +34,16 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
     <title>Document</title>
 </head>
 <body>
+
+<!--affichage de la liste des erreurs-->
+<div>
+    <ul>
+        <!--parcours le tableau des erreuret les affiches-->
+        <?php foreach ($errors as $error): ?>
+            <li><?php  echo $error?></li>
+        <?php endforeach; ?>
+    </ul>
+</div>
 
 <!--l'action est sur la même page-->
 <form action="" method="post">

@@ -5,12 +5,9 @@
 // traitement du formulaire si'il est envoyé
 if(filter_input(INPUT_POST,'btnEnvoi') !== null){
 
-
-
-
     //champ facutatif
     $val2 = filter_input(INPUT_POST, 'tbx2', FILTER_SANITIZE_SPECIAL_CHARS);
-    if(empty($val1)) {
+    if(empty($val2)) {
         $val2 = " valeur par défaut";
     }
     var_dump($val2);
