@@ -16,7 +16,14 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
     }
 }
 ?>
+<!--affichage de la liste des erreurs-->
 
+<ul>
+    <!--parcours le tableau des erreuret les affiches-->
+    <?php foreach ($errors as $error): ?>
+        <li><?php  echo $error?></li>
+    <?php endforeach; ?>
+</ul>
 
 <!--formulaire html-->
 <!doctype html>
