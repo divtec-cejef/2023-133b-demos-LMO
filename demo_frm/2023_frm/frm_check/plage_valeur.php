@@ -19,6 +19,15 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
     }
 
 
+    //plage de 100 à 200
+    $val1 = filter_input(INPUT_POST, 'tbx1', FILTER_VALIDATE_INT,[
+        "options" => [
+            "min_range"=>100,
+            "max_range"=>200
+        ]
+    ]);
+    var_dump($val1);
+
 }
 ?>
 
