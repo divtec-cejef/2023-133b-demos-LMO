@@ -45,7 +45,11 @@ if(filter_input(INPUT_POST,'btnEnvoi') !== null){
     </p>
 
    <!--autre groupe radio-->
+    <p>
+        oui <input type="radio" name="radio1" value="valRadio1_oui">
+        non <input type="radio" name="radio1" value="valRadio1_non">
 
+    </p>
 
 
     <p>
