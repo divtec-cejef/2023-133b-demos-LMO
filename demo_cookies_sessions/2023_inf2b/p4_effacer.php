@@ -5,7 +5,8 @@ session_start();
 
 
 //efface le cookie sur le navigateur
-setcookie (session_id(), "", time() - 3600);
+$numeroSession = session_id();
+setcookie ($numeroSession, "", time() - 3600);
 
 
 
