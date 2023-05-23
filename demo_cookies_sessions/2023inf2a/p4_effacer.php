@@ -7,7 +7,7 @@ session_start();
 session_destroy();
 
 //efface le cookie sur le navigateur
-setcookie()
+
 
 //header('location:p1_fr.php');
 

@@ -1,12 +1,1 @@
-[
-  {
-    "id": 200,
-    "titre": "un chien en hiver",
-    "image": "200.jpg"
-  },
-  {
-    "id": 300,
-    "titre": "Loupiot",
-    "image": "00.jpg"
-  }
-]
+[{"id":200,"titre":"un chien en hiver","image":"200.jpg"},{"id":300,"titre":"Loupiot","image":"00.jpg"}]
