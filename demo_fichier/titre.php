@@ -33,12 +33,12 @@ var_dump($tj);
 */
 
 
-/*
+
 // lecture d'un enregistrement au format JSON retourné dans un tableau associatif
 $t= file_get_contents('./data/articles.json');
 $tj = json_decode($t,true);
 var_dump($tj);
-*/
+/**/
 
 
 /*
